@@ -98,6 +98,7 @@ h1
 
 .carre
 {   
+<<<<<<< HEAD
     position:absolute;
     width  : 0;
     height : 0;
@@ -116,4 +117,48 @@ h1
     top  : 125px;
     border : 125px solid transparent;
     border-top : 125px solid #ff6666;
+=======
+    position: absolute;
+    top: 161px;
+    left: 37px;
+    width: 177px;
+    height: 177px;
+    transform: rotate(45deg);
+    background-color: #ff6666;
+}
+
+.triangle_quatre {
+    display: block;
+    position: absolute;
+    bottom: -125px;
+    right: 125px;
+    transform: rotate(-90deg);
+    border-left : 250px solid #4ba13a;
+    border-bottom : 250px solid transparent;
+    border-top : 250px solid transparent;
+    background-color: transparent;
+}
+
+.triangle_cinq {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    transform: rotate(180deg);
+    border-left : 250px solid #e4cf2d;
+    border-bottom : 250px solid transparent;
+    border-top : 250px solid transparent;
+    background-color: transparent;
+}
+
+.parallelogramme {
+    display: block;
+    position: absolute;
+    top: -0.5px;
+    left: 188px;
+    height: 125px;
+    width: 250px;
+    transform: rotate(180deg) skew(-45deg);
+    background-color: red;
+>>>>>>> origin/ar_base
 }
