@@ -78,8 +78,8 @@ h1
     display: absolute;
     height: 0;
     width: 0;
-    border-top : 250px solid #99cc33;
-    border-bottom : 250px solid transparent;
-    border-left: 250px solid;
+    border-left : 125px solid #3399ff;
+    border-bottom : 125px solid transparent;
+    border-top : 125px solid transparent;
     background-color: transparent;
 }
