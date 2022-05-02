@@ -98,26 +98,6 @@ h1
 
 .carre
 {   
-<<<<<<< HEAD
-    position:absolute;
-    width  : 0;
-    height : 0;
-    border : 125px solid transparent;
-    border-bottom : 125px solid #ff6666;
-    background-color: transparent;
-}
-
-.carre:after
-{
-    width  : 0;
-    height : 0;
-    content : '';
-    position : absolute;
-    left : -125px;
-    top  : 125px;
-    border : 125px solid transparent;
-    border-top : 125px solid #ff6666;
-=======
     position: absolute;
     top: 161px;
     left: 37px;
@@ -133,7 +113,7 @@ h1
     bottom: -125px;
     right: 125px;
     transform: rotate(-90deg);
-    border-left : 250px solid #4ba13a;
+    border-left : 250px solid #33cc66;
     border-bottom : 250px solid transparent;
     border-top : 250px solid transparent;
     background-color: transparent;
@@ -145,7 +125,7 @@ h1
     bottom: 0px;
     right: 0px;
     transform: rotate(180deg);
-    border-left : 250px solid #e4cf2d;
+    border-left : 250px solid #ffcc00;
     border-bottom : 250px solid transparent;
     border-top : 250px solid transparent;
     background-color: transparent;
@@ -155,10 +135,9 @@ h1
     display: block;
     position: absolute;
     top: -0.5px;
-    left: 188px;
+    left: 187px;
     height: 125px;
     width: 250px;
     transform: rotate(180deg) skew(-45deg);
-    background-color: red;
->>>>>>> origin/ar_base
+    background-color: #6666cc;
 }
