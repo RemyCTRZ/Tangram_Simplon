@@ -18,7 +18,7 @@ h1
 {
     text-align: center;
     font-size: 80px;
-    margin-bottom: 0;
+    margin:0;
     -webkit-text-stroke: 3px #777;
 }
 
@@ -27,7 +27,7 @@ h1
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 70vh;
+    max-height: 100%;
 }
 
 .first_page button
@@ -65,7 +65,8 @@ h1
 
 .triangle_un
 {
-    display: absolute;
+    position: absolute;
+    top: 0;
     height: 0;
     width: 0;
     border-top : 250px solid #99cc33;
@@ -75,11 +76,69 @@ h1
 
 .triangle_deux
 {
-    display: absolute;
+    position: absolute;
+    top:50%;
     height: 0;
     width: 0;
     border-left : 125px solid #3399ff;
     border-bottom : 125px solid transparent;
     border-top : 125px solid transparent;
     background-color: transparent;
+}
+
+.triangle_trois
+{   
+    position: absolute;
+    border-top : 125px solid  #ff9933;
+    border-right : 125px solid transparent;
+    border-left : 125px solid transparent;
+    background-color: transparent;
+    top:125px;
+    left:125px;
+}
+
+.carre
+{   
+    position: absolute;
+    top: 161px;
+    left: 37px;
+    width: 177px;
+    height: 177px;
+    transform: rotate(45deg);
+    background-color: #ff6666;
+}
+
+.triangle_quatre {
+    display: block;
+    position: absolute;
+    bottom: -125px;
+    right: 125px;
+    transform: rotate(-90deg);
+    border-left : 250px solid #4ba13a;
+    border-bottom : 250px solid transparent;
+    border-top : 250px solid transparent;
+    background-color: transparent;
+}
+
+.triangle_cinq {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    transform: rotate(180deg);
+    border-left : 250px solid #e4cf2d;
+    border-bottom : 250px solid transparent;
+    border-top : 250px solid transparent;
+    background-color: transparent;
+}
+
+.parallelogramme {
+    display: block;
+    position: absolute;
+    top: -0.5px;
+    left: 188px;
+    height: 125px;
+    width: 250px;
+    transform: rotate(180deg) skew(-45deg);
+    background-color: red;
 }
