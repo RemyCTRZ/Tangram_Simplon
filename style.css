@@ -86,6 +86,7 @@ button:hover
     height: 500px;
     width: 500px;
     position: relative;
+    gap: 450px;
 }
 
 .triangle_un
@@ -182,7 +183,7 @@ button:hover
     margin-left: 10%;
 }
 
-@media screen and (max-width: 790px ) {
+@media screen and (max-width: 2000px ) {
     body
 {
     color: #fff;
@@ -350,6 +351,7 @@ h1
 }
    
   }
+
   
   
 
