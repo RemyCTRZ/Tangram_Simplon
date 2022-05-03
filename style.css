@@ -17,9 +17,9 @@ body
 h1
 {
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     margin:0;
-    -webkit-text-stroke: 3px #777;
+    -webkit-text-stroke: 2px #777;
 }
 
 .boutons
@@ -35,26 +35,27 @@ h1
     color: #fff;
     background-color: #3399ff;
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     margin:20px;
     border-radius: 30px;
-    width: 130px;
+    width: 100px;
+}
+
+.btn_carre button:hover
+{
+    color: #3399ff;
 }
 
 .centre button
 {
-    width:130px;
-    height: 40px;
-    background-color: transparent;
     color: #fff;
-    outline: auto transparent;
-    border-radius: 30px;
-    margin:20px;
-    margin-bottom: 30px;
-    text-align: center;
+    border: none;
     font-size: 20px;
     font-weight: 600;
+    margin:20px;
+    border-radius: 30px;
+    width: 100px;
 }
 
 button:hover
@@ -67,23 +68,23 @@ button:hover
 .centre
 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
 }  
 
 .centre button
 {
-    margin:auto;
-
+    margin:20px;
+    border: #fff;
 }
 
 .carre_tangram
 {
-    outline: auto;
-    height: 500px;
-    width: 500px;
-    background-color: #222222;
-    box-shadow: 12px 12px 12px black;
+    height: 80vh;
+    width: 100vw;
     position: relative;
 }
 
@@ -166,20 +167,67 @@ button:hover
     background-color: #6666cc;
 }
 
-.liste_gauche
+.liste
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
-    height: 500px;
-    margin-right: 10%;
+    height: auto;
 }
 
-.liste_droite
+
+.swan .carre_tangram
 {
-    display: flex;
-    flex-direction: column;
-    position: relative;
     height: 500px;
-    margin-left: 10%;
+    width: 500px;
+}
+
+.swan .triangle_un
+{
+    top: 475px;
+    left: 74px;
+    transform:rotate(315deg);
+}
+
+.swan .triangle_deux
+{
+    transform:rotate(45deg);
+    top: -18px;
+    left: 41px;
+}
+
+.swan .triangle_trois
+{
+    transform:rotate(270deg);
+    top: 412px;
+    left: -40px;
+    z-index:1;
+}
+
+.swan .triangle_quatre
+{
+    transform: rotate(135deg);
+    left: 161.5px;
+    bottom: -438px;
+    z-index: 1;
+}
+
+.swan .triangle_cinq
+{   
+    transform: rotate(90deg);
+    bottom: -402px;
+    left: 428px;
+}
+
+.swan .carre
+{
+    top:260px;
+    left:60px;
+}
+
+.swan .parallelogramme
+{
+    transform: rotate(270deg) skew(-45deg);
+    top:99px;
+    left:85px;
 }
