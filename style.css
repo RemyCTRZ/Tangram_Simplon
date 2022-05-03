@@ -86,12 +86,13 @@ button:hover
     height: 500px;
     width: 500px;
     position: relative;
-
 }
 
 .triangle_un
 {
     position: absolute;
+    left: 0;
+    top: 0;
     height: 0;
     width: 0;
     border-top : 250px solid #99cc33;
@@ -102,7 +103,8 @@ button:hover
 .triangle_deux
 {
     position: absolute;
-    top:50%;
+    top: 250px;
+    left: 0;
     height: 0;
     width: 0;
     border-left : 125px solid #3399ff;
@@ -160,7 +162,7 @@ button:hover
 .parallelogramme {
     display: block;
     position: absolute;
-    top: -0.5px;
+    top: 0;
     left: 187px;
     height: 125px;
     width: 250px;

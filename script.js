@@ -2,8 +2,11 @@ function formeClick(e) {
   let body = document.body;
   body.className = '';
   switch (e) {
-    case 'reset':
+    case 'trier':
       body.className = '';
+      break;
+    case 'reset':
+      body.classList.add("reset");
       break;
     case "fish":
       body.classList.add("fish");
