@@ -17,9 +17,9 @@ body
 h1
 {
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     margin:0;
-    -webkit-text-stroke: 3px #777;
+    -webkit-text-stroke: 2px #777;
 }
 
 .boutons
@@ -35,26 +35,27 @@ h1
     color: #fff;
     background-color: #3399ff;
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     margin:20px;
     border-radius: 30px;
-    width: 130px;
+    width: 100px;
+}
+
+.btn_carre button:hover
+{
+    color: #3399ff;
 }
 
 .centre button
 {
-    width:130px;
-    height: 40px;
-    background-color: transparent;
     color: #fff;
-    outline: auto transparent;
-    border-radius: 30px;
-    margin:20px;
-    margin-bottom: 30px;
-    text-align: center;
+    border: none;
     font-size: 20px;
     font-weight: 600;
+    margin:20px;
+    border-radius: 30px;
+    width: 100px;
 }
 
 button:hover
@@ -67,20 +68,23 @@ button:hover
 .centre
 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
 }  
 
 .centre button
 {
-    margin:auto;
-
+    margin:20px;
+    border: #fff;
 }
 
 .carre_tangram
 {
-    height: 500px;
-    width: 500px;
+    height: 80vh;
+    width: 100vw;
     position: relative;
 }
 
@@ -163,23 +167,14 @@ button:hover
     background-color: #6666cc;
 }
 
-.liste_gauche
+.liste
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
-    height: 500px;
-    margin-right: 10%;
+    height: auto;
 }
 
-.liste_droite
-{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    height: 500px;
-    margin-left: 10%;
-}
 
 .swan .carre_tangram
 {
