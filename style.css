@@ -248,9 +248,9 @@ h1
 
 .carre_tangram
 {
-    height: 500px;
-    width: 500px;
-    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 300px;
 }
 
 .triangle_un
@@ -351,9 +351,12 @@ h1
   
   
   @media screen and (max-width: 880px) {
-   
+    .liste
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+    }
       
   }
-  @media screen and (max-width: 1100px) {
-   
-  }
+ 
