@@ -83,9 +83,13 @@ button:hover
 
 .carre_tangram
 {
-    height: 80vh;
-    width: 100vw;
+    outline: auto;
+    height: 500px;
+    width: 500px;
+    background-color: #222222;
+    box-shadow: 12px 12px 12px black;
     position: relative;
+
 }
 
 .triangle_un
