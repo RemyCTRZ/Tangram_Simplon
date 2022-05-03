@@ -183,3 +183,59 @@ button:hover
     height: 500px;
     margin-left: 10%;
 }
+
+.bear .carre_tangram
+{
+    height: 500px;
+    width: 500px;
+}
+
+.bear .triangle_un
+{
+    top:125px;
+    left:125px;
+    transform:rotate(0.75turn);
+}
+
+.bear .triangle_deux
+{
+    transform:rotate(45deg);
+    top: 560px;
+    left: 445px;
+}
+
+.bear .triangle_trois
+{
+    transform:rotate(315deg);
+    top:195px;
+    left:-222px;
+    z-index:1;
+}
+
+.bear .triangle_quatre
+{
+    transform:rotate(1turn);
+    left:478.5px;
+    z-index:1;
+}
+
+.bear .triangle_cinq
+{
+    transform:rotate(0.875turn);
+    bottom: 37px;
+    left: 265px;
+}
+
+.bear .carre
+{
+    transform:rotate(0.5turn);
+    top:125px;
+    left:-52px;
+}
+
+.bear .parallelogramme
+{
+    transform: rotate(135deg) skew(45deg);
+    top:401px;
+    left:0px;
+}
