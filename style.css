@@ -83,16 +83,8 @@ button:hover
 
 .carre_tangram
 {
-<<<<<<< HEAD
-    outline: auto;
     height: 500px;
     width: 500px;
-    background-color: #222222;
-    box-shadow: 12px 12px 12px black;
-=======
-    height: 500px;
-    width: 500px;
->>>>>>> a966bbd77f1a9f2dea138b1bd5a4d68dfdca4cc7
     position: relative;
 
 }
