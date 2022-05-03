@@ -1,0 +1,42 @@
+.dog .triangle_un{
+    left:463px;
+    top:482px;
+    transform: rotate(0deg);
+}
+.dog .carre{
+    left:462px;
+    top:51px;
+    transform: rotate(90deg);
+
+}
+.dog .triangle_trois{
+    left:274px;
+    top:42px;
+    transform: rotate(90deg);
+
+}
+.dog .triangle_cinq{
+    left:-989px;
+    top:-21px;
+    transform: rotate(225deg);
+
+}
+.dog .triangle_quatre{
+    left:250px;
+    top:243px;
+    transform: rotate(45deg);
+
+}
+.dog .parallelogramme{
+    left:-176px;
+    top:457px;
+    transform: rotate(40deg) skew(-45deg);
+    
+
+}
+.dog .triangle_deux{
+    left:99px;
+    top:824px;
+    transform: rotate(180deg);
+
+}
