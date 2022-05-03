@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+	padding: 0;
+    background-color: #333333;
+
+}
+
+body
+{
+    color: #fff;
+    margin:20px;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    margin:0;
+    -webkit-text-stroke: 2px #777;
+}
+
+.boutons
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.btn_carre button
+{
+    color: #fff;
+    background-color: #3399ff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin:20px;
+    border-radius: 30px;
+    width: 100px;
+}
+
+.btn_carre button:hover
+{
+    color: #3399ff;
+}
+
+.centre button
+{
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin:20px;
+    border-radius: 30px;
+    width: 100px;
+}
+
+button:hover
+{
+    background-color: #fff;
+    color:#333333;
+    outline-color: #fff;
+}
+
+.centre
+{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+}  
+
+.centre button
+{
+    margin:20px;
+    border: #fff;
+}
+
+.carre_tangram
+{
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+}
+
+.triangle_un
+{
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top : 250px solid #99cc33;
+    border-right : 250px solid transparent;
+    background-color: transparent;
+}
+
+.triangle_deux
+{
+    position: absolute;
+    top:50%;
+    height: 0;
+    width: 0;
+    border-left : 125px solid #3399ff;
+    border-bottom : 125px solid transparent;
+    border-top : 125px solid transparent;
+    background-color: transparent;
+}
+
+.triangle_trois
+{   
+    position: absolute;
+    border-top : 125px solid  #ff9933;
+    border-right : 125px solid transparent;
+    border-left : 125px solid transparent;
+    background-color: transparent;
+    top:125px;
+    left:125px;
+}
+
+.carre
+{   
+    position: absolute;
+    top: 161px;
+    left: 37px;
+    width: 177px;
+    height: 177.5px;
+    transform: rotate(45deg);
+    background-color: #ff6666;
+}
+
+.triangle_quatre {
+    display: block;
+    position: absolute;
+    bottom: -125px;
+    right: 125px;
+    transform: rotate(-90deg);
+    border-left : 250px solid #33cc66;
+    border-bottom : 250px solid transparent;
+    border-top : 250px solid transparent;
+    background-color: transparent;
+}
+
+.triangle_cinq {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    transform: rotate(180deg);
+    border-left : 250px solid #ffcc00;
+    border-bottom : 250px solid transparent;
+    border-top : 250px solid transparent;
+    background-color: transparent;
+}
+
+.parallelogramme {
+    display: block;
+    position: absolute;
+    top: -0.5px;
+    left: 187px;
+    height: 125px;
+    width: 250px;
+    transform: rotate(180deg) skew(-45deg);
+    background-color: #6666cc;
+}
+
+.liste
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: auto;
+}
+
+
+.swan .carre_tangram
+{
+    height: 500px;
+    width: 500px;
+}
+
+.swan .triangle_un
+{
+    top: 475px;
+    left: 74px;
+    transform:rotate(315deg);
+}
+
+.swan .triangle_deux
+{
+    transform:rotate(45deg);
+    top: -18px;
+    left: 41px;
+}
+
+.swan .triangle_trois
+{
+    transform:rotate(270deg);
+    top: 412px;
+    left: -40px;
+    z-index:1;
+}
+
+.swan .triangle_quatre
+{
+    transform: rotate(135deg);
+    left: 161.5px;
+    bottom: -438px;
+    z-index: 1;
+}
+
+.swan .triangle_cinq
+{   
+    transform: rotate(90deg);
+    bottom: -402px;
+    left: 428px;
+}
+
+.swan .carre
+{
+    top:260px;
+    left:60px;
+}
+
+.swan .parallelogramme
+{
+    transform: rotate(270deg) skew(-45deg);
+    top:99px;
+    left:85px;
+}
