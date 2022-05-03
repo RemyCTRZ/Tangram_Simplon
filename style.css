@@ -79,11 +79,8 @@ button:hover
 
 .carre_tangram
 {
-    outline: auto;
     height: 500px;
     width: 500px;
-    background-color: #222222;
-    box-shadow: 12px 12px 12px black;
     position: relative;
 }
 
@@ -184,58 +181,58 @@ button:hover
     margin-left: 10%;
 }
 
-.bear .carre_tangram
+.swan .carre_tangram
 {
     height: 500px;
     width: 500px;
 }
 
-.bear .triangle_un
+.swan .triangle_un
 {
-    top:125px;
-    left:125px;
-    transform:rotate(0.75turn);
+    top: 475px;
+    left: 74px;
+    transform:rotate(315deg);
 }
 
-.bear .triangle_deux
+.swan .triangle_deux
 {
     transform:rotate(45deg);
-    top: 560px;
-    left: 445px;
+    top: -18px;
+    left: 41px;
 }
 
-.bear .triangle_trois
+.swan .triangle_trois
 {
-    transform:rotate(315deg);
-    top:195px;
-    left:-222px;
+    transform:rotate(270deg);
+    top: 412px;
+    left: -40px;
     z-index:1;
 }
 
-.bear .triangle_quatre
+.swan .triangle_quatre
 {
-    transform:rotate(1turn);
-    left:478.5px;
-    z-index:1;
+    transform: rotate(135deg);
+    left: 161.5px;
+    bottom: -438px;
+    z-index: 1;
 }
 
-.bear .triangle_cinq
-{
-    transform:rotate(0.875turn);
-    bottom: 37px;
-    left: 265px;
+.swan .triangle_cinq
+{   
+    transform: rotate(90deg);
+    bottom: -402px;
+    left: 428px;
 }
 
-.bear .carre
+.swan .carre
 {
-    transform:rotate(0.5turn);
-    top:125px;
-    left:-52px;
+    top:260px;
+    left:60px;
 }
 
-.bear .parallelogramme
+.swan .parallelogramme
 {
-    transform: rotate(135deg) skew(45deg);
-    top:401px;
-    left:0px;
+    transform: rotate(270deg) skew(-45deg);
+    top:99px;
+    left:85px;
 }
