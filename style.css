@@ -182,7 +182,7 @@ button:hover
     margin-left: 10%;
 }
 
-@media screen and (max-width: 400px ) {
+@media screen and (max-width: 790px ) {
     body
 {
     color: #fff;
