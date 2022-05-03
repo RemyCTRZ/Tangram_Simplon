@@ -6,29 +6,33 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
 <link rel="stylesheet" type="text/css" href="style.css"/>
 <link rel="stylesheet" type="text/css" href="fish.css">
+<link rel="stylesheet" type="text/css" href="camel.css">
+<link rel="stylesheet" type="text/css" href="bear.css">
+<link rel="stylesheet" type="text/css" href="swan.css">
+
 <title>Tangram</title>
 </head>
 
 <!-- Page -->
 
-<body class="swan">
+<body>
     <header>
         <h1>TANGRAM TEST</h1>
     </header>
     <section class="boutons">
         <div class="btn_carre">
-            <button class="reset">RESET</button>
+            <button class="reset" onclick="formeClick('reset')">RESET</button>
             <button class="sort">TRIER</button>
         </div>
     </section>
     <section class="centre">
         <aside class="liste">
-            <button class="btn_fish">POISSON</button>
-            <button class="btn_bear">OURS</button>
-            <button class="btn_dog">CHIEN</button>
-            <button class="btn_cat">CHAT</button>
-            <button class="btn_swan">CYGNE</button>
-            <button class="btn_horse">CHEVAL</button>
+            <button class="btn_fish" onclick="formeClick('fish')">POISSON</button>
+            <button class="btn_bear" onclick="formeClick('bear')">OURS</button>
+            <button class="btn_dog" onclick="formeClick('dog')">CHIEN</button>
+            <button class="btn_cat" onclick="formeClick('cat')">CHAT</button>
+            <button class="btn_swan" onclick="formeClick('swan')">CYGNE</button>
+            <button class="btn_horse" onclick="formeClick('camel')">CAMEL</button>
         </aside>
         <article class="carre_tangram">
             <div class="toto">
@@ -54,3 +58,4 @@
 <footer>
 
 </footer>
+<script src="script.js"></script>
