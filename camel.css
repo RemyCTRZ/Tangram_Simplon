@@ -1,0 +1,46 @@
+.camel .carre_tangram {
+  height: 500px;
+  width: 500px;
+}
+
+.camel .carre {
+  transform: rotate(45deg);
+  left: 287px;
+  top: 162px;
+}
+
+.camel .triangle_un {
+  transform: rotate(45deg);
+  left: 427px;
+  top: 251px;
+}
+
+.camel .triangle_deux {
+  transform: rotate(-180deg);
+  top: 0px;
+  left: 124px;
+}
+
+.camel .triangle_trois {
+  transform: rotate(0);
+  left: 0px;
+  top: 0px;
+}
+
+.camel .triangle_quatre {
+  transform: rotate(-45deg);
+  bottom: -214px;
+  right: -266px;
+}
+
+.camel .triangle_cinq {
+  transform: rotate(0deg);
+  left: 250px;
+  top: 250px;
+}
+
+.camel .parallelogramme {
+  top: 250px;
+  left: 62px;
+  transform: rotate(-90deg) skew(-45deg);
+}

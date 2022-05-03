@@ -179,9 +179,55 @@ button:hover
 .swan .carre_tangram
 {
     height: 500px;
-    margin-left: 10%;
+    width: 500px;
 }
-.toto{
-    padding: 5%;
-    
+
+.swan .triangle_un
+{
+    top: 475px;
+    left: 74px;
+    transform:rotate(315deg);
+}
+
+.swan .triangle_deux
+{
+    transform:rotate(45deg);
+    top: -18px;
+    left: 41px;
+}
+
+.swan .triangle_trois
+{
+    transform:rotate(270deg);
+    top: 412px;
+    left: -40px;
+    z-index:1;
+}
+
+.swan .triangle_quatre
+{
+    transform: rotate(135deg);
+    left: 161.5px;
+    bottom: -438px;
+    z-index: 1;
+}
+
+.swan .triangle_cinq
+{   
+    transform: rotate(90deg);
+    bottom: -402px;
+    left: 428px;
+}
+
+.swan .carre
+{
+    top:260px;
+    left:60px;
+}
+
+.swan .parallelogramme
+{
+    transform: rotate(270deg) skew(-45deg);
+    top:99px;
+    left:85px;
 }
