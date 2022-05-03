@@ -250,7 +250,8 @@ h1
 {
     height: 500px;
     width: 500px;
-    position: relative;
+    position: absolute;
+    transform: scale(0.2);
 }
 
 .triangle_un
