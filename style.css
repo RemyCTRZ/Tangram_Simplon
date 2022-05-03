@@ -252,6 +252,7 @@ h1
     width: 500px;
     position: absolute;
     transform: scale(0.2);
+    top: 500px;
 }
 
 .triangle_un
@@ -351,13 +352,5 @@ h1
   }
   
   
-  @media screen and (max-width: 880px) {
-    .liste
-    {
-        display: flex;
-        flex-direction: row;
-        gap: 2px;
-    }
-      
-  }
+
  
