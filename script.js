@@ -26,5 +26,8 @@ function formeClick(e) {
     case 'camel':
       body.classList.add("camel");
       break;
+    case 'night_mode':
+      body.classList.add("night_mode");
+      break;
   }
 }
