@@ -82,14 +82,12 @@ button:hover
 }
 
 .carre_tangram
-{
-    outline: auto;
+{outline: auto;
     height: 500px;
     width: 500px;
     background-color: #222222;
     box-shadow: 12px 12px 12px black;
     position: relative;
-
 }
 
 .triangle_un
@@ -184,8 +182,4 @@ button:hover
 {
     height: 500px;
     margin-left: 10%;
-}
-.toto{
-    padding: 5%;
-    
 }
