@@ -1,0 +1,48 @@
+.fish .carre_tangram
+{
+    height: 500px;
+    width: auto;
+}
+
+.fish .carre {
+    transform: rotate(0);
+    left: -36px;
+    top: 250px;
+}
+
+.fish .triangle_un {
+    transform: rotate(-45deg);
+    left: 193px;
+    top: 302px;
+}
+
+.fish .triangle_deux {
+    transform: rotate(225deg);
+    top: 346px;
+    left: -55px;
+}
+
+.fish .triangle_trois {
+    transform: rotate(45deg);
+    left: -117px;
+    top: 143px;
+    
+}
+
+.fish .triangle_quatre {
+    transform: rotate(-45deg);
+    bottom: -177px;
+    right: 0px;
+}
+
+.fish .triangle_cinq {
+    transform: rotate(45deg);
+}
+
+.fish .parallelogramme {
+    top: 188px;
+    left: 105px;
+    transform: rotate(-45deg) skew(-45deg);
+}
+
+
