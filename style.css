@@ -83,8 +83,8 @@ button:hover
 
 .carre_tangram
 {
-    height: 80vh;
-    width: 100vw;
+    height: 500px;
+    width: 500px;
     position: relative;
 }
 
