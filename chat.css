@@ -28,9 +28,9 @@
 
 }
 .chat .parallelogramme{
-    left:569px;
-    top:789px;
-    transform: rotate(20deg);
+    left: 624px;
+    top: 808px;
+    transform: rotate(20deg) skew(-45deg);
 
 }
 .chat .triangle_deux{
