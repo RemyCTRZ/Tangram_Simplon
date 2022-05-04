@@ -1,7 +1,7 @@
 .cat .triangle_un{
-    left:-144px;
-    top:18px;
-    transform: rotate(180deg);
+    left:-12px;
+    top:320px;
+    transform: rotate(-45deg);
 }
 .cat .carre{
     left:-100px;
@@ -11,7 +11,7 @@
 }
 .cat .triangle_trois{
     left:-74px;
-    top:331px;
+    top:81px;
     transform: rotate(90deg);
 
 }
