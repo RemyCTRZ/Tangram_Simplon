@@ -1,41 +1,40 @@
 .cat .triangle_un{
-    left:54px;
+    left:-144px;
     top:18px;
     transform: rotate(180deg);
 }
 .cat .carre{
-    left:90px;
+    left:-100px;
     top:180px;
     transform: rotate(45deg);
 
 }
 .cat .triangle_trois{
-    left:116px;
+    left:-74px;
     top:331px;
     transform: rotate(90deg);
 
 }
 .cat .triangle_cinq{
-    left:303px;
+    left:113px;
     top:267px;
     transform: rotate(0deg);
 
 }
 .cat .triangle_quatre{
-    left:339px;
+    left:149px;
     top:529px;
     transform: rotate(45deg);
 
 }
 .cat .parallelogramme{
-    left: 624px;
+    left: 434px;
     top: 808px;
     transform: rotate(20deg) skew(-45deg);
 
 }
 .cat .triangle_deux{
-    left:54px;
+    left:-136px;
     top:18px;
     transform: rotate(0deg);
-
 }

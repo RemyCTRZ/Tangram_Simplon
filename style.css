@@ -245,8 +245,8 @@ button:hover
     html
     {
         transform: scale(0.65);
-        height: 100%;
-        width:100%
+        height: 100vh;
+        width: 100vw;
     }
 
     body
@@ -412,7 +412,7 @@ button:hover
         justify-content: center;
         align-items: center;
         top: 10px;
-        left: 10px;
+        left: -75px;
         z-index:99;
         opacity:80%;
     }
