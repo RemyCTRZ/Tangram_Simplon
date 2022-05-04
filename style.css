@@ -86,6 +86,7 @@ button:hover
     height: 500px;
     width: 500px;
     position: relative;
+    gap: 450px;
 }
 
 .triangle_un
@@ -184,3 +185,177 @@ button:hover
     height: 500px;
     margin-left: 10%;
 }
+
+@media screen and (max-width: 2000px ) {
+    body
+{
+    color: #fff;
+    margin:5px;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    margin:0;
+    -webkit-text-stroke: 2px #777;
+}
+
+.boutons
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.btn_carre button
+{
+    color: #fff;
+    background-color: #3399ff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin:2px;
+    border-radius: 30px;
+    width: 100px;
+}
+
+
+.centre button
+{
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin:20px;
+    border-radius: 30px;
+    width: 100px;
+}
+
+
+.centre
+{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+}  
+
+.centre button
+{
+    margin:20px;
+    border: #fff;
+}
+
+.carre_tangram
+{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    transform: scale(0.2);
+    top: 500px;
+}
+
+.triangle_un
+{
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top : 250px solid #99cc33;
+    border-right : 250px solid transparent;
+    background-color: transparent;
+}
+
+.triangle_deux
+{
+    position: absolute;
+    top:50%;
+    height: 0;
+    width: 0;
+    border-left : 125px solid #3399ff;
+    border-bottom : 125px solid transparent;
+    border-top : 125px solid transparent;
+    background-color: transparent;
+}
+
+.triangle_trois
+{   
+    position: absolute;
+    border-top : 125px solid  #ff9933;
+    border-right : 125px solid transparent;
+    border-left : 125px solid transparent;
+    background-color: transparent;
+    top:125px;
+    left:125px;
+}
+
+.carre
+{   
+    position: absolute;
+    top: 161px;
+    left: 37px;
+    width: 177px;
+    height: 177.5px;
+    transform: rotate(45deg);
+    background-color: #ff6666;
+}
+
+.triangle_quatre {
+    display: block;
+    position: absolute;
+    bottom: -125px;
+    right: 125px;
+    transform: rotate(-90deg);
+    border-left : 250px solid #33cc66;
+    border-bottom : 250px solid transparent;
+    border-top : 250px solid transparent;
+    background-color: transparent;
+}
+
+.triangle_cinq {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    transform: rotate(180deg);
+    border-left : 250px solid #ffcc00;
+    border-bottom : 250px solid transparent;
+    border-top : 250px solid transparent;
+    background-color: transparent;
+}
+
+.parallelogramme {
+    display: block;
+    position: absolute;
+    top: -0.5px;
+    left: 187px;
+    height: 125px;
+    width: 250px;
+    transform: rotate(180deg) skew(-45deg);
+    background-color: #6666cc;
+}
+
+.liste
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+}
+
+
+.swan .carre_tangram
+{
+    height: 500px;
+    margin-left: 10%;
+}
+   
+  }
+
+  
+  
+
+ 
