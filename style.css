@@ -242,6 +242,13 @@ button:hover
 
 @media screen and (max-width: 1000px )
 {
+    html
+    {
+        transform: scale(0.65);
+        height: 100%;
+        width:100%
+    }
+
     body
     {
         color: #fff;
