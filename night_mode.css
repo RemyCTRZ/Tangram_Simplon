@@ -87,7 +87,7 @@ body#nightMode
         justify-content: center;
         align-items: center;
         top: 10px;
-        left: 10px;
+        left: -75px;
         z-index:99;
         opacity:80%;
     }
