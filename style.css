@@ -398,21 +398,20 @@ button:hover
         transition: 0.7s;
     }
 
-    .night_mode button:hover i
-    {
-        color:#3399ff;
-        background-color: transparent;
-    }
-
-    .night_mode button:hover
-    {
-        background-color: transparent;
-    }
 
     .night_mode button i
     {
         background-color: transparent;
         color: #fff;
         transition: 0.7s;
+    }
+
+    .night_mode button:hover i
+    {
+        background-color: transparent;
+    }
+
+    .night_mode button:hover {
+        background-color: transparent;
     }
 }
