@@ -14,5 +14,6 @@ for (var i = 0; i < 360; i++) {
 
 function catchColor(e) {
 	let a = document.getElementById('d' + e);
-	console.log(a);
+	let picker = a.style.backgroundColor;
+	console.log(picker);
 }
