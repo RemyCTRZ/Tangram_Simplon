@@ -51,3 +51,23 @@ body#nightMode
     background-color: #fff;
     color: #333333;
 }
+
+@media screen and (max-width: 1000px )
+{
+    #nightMode .night_mode button:hover i
+{
+    color:#3399ff;
+    background-color: transparent;
+}
+
+#nightMode .night_mode button:hover
+{
+    background-color: transparent;
+}
+
+#nightMode .night_mode button i
+{
+    background-color: transparent;
+    color: #333333;
+}
+}
