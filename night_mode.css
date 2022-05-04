@@ -9,6 +9,11 @@ body#nightMode
     color:#fff;
 }
 
+#nightMode button
+{
+    transition: 0.2s;
+}
+
 #nightMode .centre button
 {
     background-color: #fff;
@@ -30,20 +35,33 @@ body#nightMode
     display: flex;
     justify-content: center;
     align-items: center;
-    top:0;
-    right:0;
+    top:20px;
+    right:20px;
     z-index:99;
-}
-
-#nightMode .night_mode button:hover i
-{
-    color:#3399ff;
-    background-color: #333;
 }
 
 #nightMode .night_mode button:hover
 {
     background-color: #333;
+}
+
+#nightMode .liste button:hover
+{
+    background-color: #333;
+    color:#fff;
+    outline: solid #fff;
+}
+
+#nightMode .btn_carre button:hover
+{
+    color: #3399ff;
+    outline: solid #3399ff;
+}
+
+#nightMode .night_mode button:hover i
+{
+    background-color: #333;
+    color: #333333;
 }
 
 #nightMode .night_mode button i
@@ -52,22 +70,25 @@ body#nightMode
     color: #333333;
 }
 
-@media screen and (max-width: 1000px )
-{
-    #nightMode .night_mode button:hover i
+#nightMode .night_mode button:hover i
 {
     color:#3399ff;
-    background-color: transparent;
 }
 
-#nightMode .night_mode button:hover
-{
-    background-color: transparent;
-}
+@media screen and (max-width: 1000px )
 
-#nightMode .night_mode button i
 {
-    background-color: transparent;
-    color: #333333;
-}
+    #nightMode .night_mode button
+    {
+        background-color: #333;
+        height:50px;
+        width:50px;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        top: 10px;
+        left: 10px;
+        z-index:99;
+        opacity:80%;
+    }
 }

@@ -16,15 +16,24 @@ body
 h1
 {
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     margin:0;
     color:#333;
+}
+
+button
+{
+    transition: 0.2s;
+}
+
+i
+{
+    transition: 0.2s;
 }
 
 button:hover
 {
     cursor:pointer;
-    transition: 0.5s;
 }
 
 .boutons
@@ -48,11 +57,6 @@ button:hover
     width: 120px;
 }
 
-.btn_carre button:hover
-{
-    color: #3399ff;
-}
-
 .centre button
 {
     color: #fff;
@@ -66,12 +70,20 @@ button:hover
     width: 120px;
 }
 
-button:hover
+.btn_carre button:hover
 {
     background-color: #fff;
-    color:#333333;
-    outline-color: #fff;
+    color: #3399ff;
+    outline: auto #3399ff;
 }
+
+.liste button:hover
+{
+    background-color: #fff;
+    color:#333;
+    outline: auto #333;
+}
+
 
 .centre
 {
@@ -99,7 +111,7 @@ button:hover
     border-top : 250px solid #99cc33;
     border-right : 250px solid transparent;
     background-color: transparent;
-    transition: 0.8s all ease;
+    transition: 1s all ease;
 }
 
 .triangle_deux
@@ -113,7 +125,7 @@ button:hover
     border-bottom : 125px solid transparent;
     border-top : 125px solid transparent;
     background-color: transparent;
-    transition: 0.8s all ease;
+    transition: 1s all ease;
 }
 
 .triangle_trois
@@ -125,7 +137,7 @@ button:hover
     background-color: transparent;
     top:125px;
     left:125px;
-    transition: 0.8s all ease;
+    transition: 1s all ease;
 }
 
 .carre
@@ -137,7 +149,7 @@ button:hover
     height: 177.5px;
     transform: rotate(45deg);
     background-color: #ff6666;
-    transition: 0.8s all ease;
+    transition: 1s all ease;
 }
 
 .triangle_quatre 
@@ -151,7 +163,7 @@ button:hover
     border-bottom : 250px solid transparent;
     border-top : 250px solid transparent;
     background-color: transparent;
-    transition: 0.8s all ease;
+    transition: 1s all ease;
 }
 
 .triangle_cinq 
@@ -165,7 +177,7 @@ button:hover
     border-bottom : 250px solid transparent;
     border-top : 250px solid transparent;
     background-color: transparent;
-    transition: 0.8s all ease;
+    transition: 1s all ease;
 }
 
 .parallelogramme 
@@ -178,7 +190,7 @@ button:hover
     width: 250px;
     transform: rotate(180deg) skew(-45deg);
     background-color: #6666cc;
-    transition: 0.8s all ease;
+    transition: 1s all ease;
 }
 
 .liste
@@ -188,6 +200,7 @@ button:hover
     position: relative;
     height: auto;
     margin-bottom: 50px;
+    transition: 1s all ease;
 }
 
 .toto
@@ -204,10 +217,9 @@ button:hover
     display: flex;
     justify-content: center;
     align-items: center;
-    top:0;
-    right:0;
+    top:20px;
+    right:20px;
     z-index:99;
-    transition: 0.7s;
 }
 
 .night_mode button:hover i
@@ -219,16 +231,17 @@ button:hover
 .night_mode button:hover
 {
     background-color: #fff;
+    outline: solid #3399ff;
 }
 
 .night_mode button i
 {
     background-color: #333;
     color: #fff;
-    transition: 0.7s;
 }
 
-@media screen and (max-width: 1000px ) {
+@media screen and (max-width: 1000px )
+{
     body
     {
         color: #fff;
@@ -244,7 +257,7 @@ button:hover
 
 
     .btn_carre button
-    {
+    {   
         color: #fff;
         background-color: #3399ff;
         border: none;
@@ -252,7 +265,7 @@ button:hover
         font-weight: 600;
         margin:2px;
         border-radius: 30px;
-        width: 100px;
+        width: 120px;
     }
 
 
@@ -264,7 +277,7 @@ button:hover
         font-weight: 600;
         margin:20px;
         border-radius: 30px;
-        width: 100px;
+        width: 120px;
     }
 
 
@@ -280,7 +293,7 @@ button:hover
 
     .centre button
     {
-        margin:20px;
+        margin: 10px;
         border: #fff;
     }
 
@@ -289,8 +302,8 @@ button:hover
         height: 500px;
         width: 500px;
         position: absolute;
-        transform: scale(0.2);
-        top: 500px;
+        transform: scale(0.5);
+        margin-top: 70px;
     }
 
     .triangle_un
@@ -377,41 +390,41 @@ button:hover
 
     .liste
     {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         position: relative;
         height: auto;
     }
 
     .night_mode button
     {
-        background-color: transparent;
+        background-color: #333;
         height:50px;
         width:50px;
         position: fixed;
-        display: flex;
         justify-content: center;
         align-items: center;
-        top:0;
-        right:0;
+        top: 10px;
+        left: 10px;
         z-index:99;
-        transition: 0.7s;
+        opacity:80%;
     }
-
-
-    .night_mode button i
-    {
-        background-color: transparent;
-        color: #fff;
-        transition: 0.7s;
-    }
-
+    
     .night_mode button:hover i
     {
-        background-color: transparent;
+        color:#3399ff;
+        background-color: #fff;
     }
-
-    .night_mode button:hover {
-        background-color: transparent;
+    
+    .night_mode button:hover
+    {
+        background-color: #fff;
+        outline: solid #3399ff;
+    }
+    
+    .night_mode button i
+    {
+        background-color: #333;
+        color: #fff;
     }
 }
