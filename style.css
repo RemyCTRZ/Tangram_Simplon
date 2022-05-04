@@ -188,6 +188,29 @@ button:hover
     position: relative;
     height: auto;
     margin-bottom: 50px;
+    
+}
+.btn_fish{
+    outline: auto black;
+}
+.btn_bear{
+    outline: auto black;
+}
+.btn_dog{
+    outline: auto black;
+}
+.btn_cat{
+    outline: auto black;
+}
+.btn_swan{
+    outline: auto black;
+}
+.btn_horse{
+    outline: auto black;
+}
+.btn_carre button{
+        outline: auto #3399ff;
+    
 }
 
 .toto
