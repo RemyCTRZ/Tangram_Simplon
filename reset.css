@@ -1,0 +1,45 @@
+.reset .carre_tangram
+{
+    height: 500px;
+    width: auto;
+}
+
+.reset .carre {
+    top: -71px;
+    left: -253px;
+}
+
+.reset .triangle_un {
+    left: 168px;
+    top: -83px;
+}
+
+.reset .triangle_deux {
+    top: -92px;
+    left: -437px;
+}
+
+.reset .triangle_trois {
+    left: -117px;
+    top: 143px;
+    
+}
+
+.reset .triangle_quatre {
+    bottom: -177px;
+    right: 0px;
+}
+
+.reset .triangle_cinq {
+    transform: rotate(45deg);
+    top: 20px;
+    left: 200px;
+}
+
+.reset .parallelogramme {
+    top: 188px;
+    left: -398px;
+    transform: skew(-45deg);
+}
+
+
