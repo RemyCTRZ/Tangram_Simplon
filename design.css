@@ -1,0 +1,38 @@
+.tout{
+    border:1px solid rgb(61, 60, 60);
+    font-size: 30px;
+    color: black;
+}
+.tout ul{
+
+  list-style-type: none;
+}
+.ligne1{
+    flex-direction: row;
+    display: flex;
+    top: 0px;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.ligne2{
+    display: flex;
+    flex-direction: row;
+    top:10px ;
+    text-align: center;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    position: relative;
+}
+ul li button{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 25px;
+}
+ul li button:hover{
+ font-size: 40px;
+}
