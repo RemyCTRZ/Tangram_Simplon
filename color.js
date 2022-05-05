@@ -33,13 +33,13 @@ function catchColor(e) {
         forme[3].setAttribute("style", `border-top-color: ${picker}; opacity: 0.6`);
         break;
       case 4:
-        forme[4].setAttribute("style", `background-color: ${picker}; opacity: 1`);
+        forme[4].setAttribute("style", `background-color: ${picker}; opacity: 0.38`);
         break;
       case 5:
-        forme[5].setAttribute("style", `border-left-color: ${picker}; opacity: 0.7`);
+        forme[5].setAttribute("style", `border-left-color: ${picker}; opacity: 0.65`);
         break;
       case 6:
-        forme[6].setAttribute("style", `border-left-color: ${picker}; opacity: 0.5`);
+        forme[6].setAttribute("style", `border-left-color: ${picker}; opacity: 1`);
         break;
     }
   }
