@@ -240,7 +240,7 @@ button:hover
     color: #fff;
 }
 
-@media screen and (max-width: 1000px )
+@media screen and (max-width: 1000px)
 {
     html
     {
@@ -286,7 +286,6 @@ button:hover
         border-radius: 30px;
         width: 120px;
     }
-
 
     .centre
     {
