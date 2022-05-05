@@ -111,7 +111,7 @@ button:hover
     border-top : 250px solid #99cc33;
     border-right : 250px solid transparent;
     background-color: transparent;
-    transition: 1s all ease;
+    transition: 2s all ease;
 }
 
 .triangle_deux
@@ -125,7 +125,7 @@ button:hover
     border-bottom : 125px solid transparent;
     border-top : 125px solid transparent;
     background-color: transparent;
-    transition: 1s all ease;
+    transition: 2s all ease;
 }
 
 .triangle_trois
@@ -137,7 +137,7 @@ button:hover
     background-color: transparent;
     top:125px;
     left:125px;
-    transition: 1s all ease;
+    transition: 2s all ease;
 }
 
 .carre
@@ -149,7 +149,7 @@ button:hover
     height: 177.5px;
     transform: rotate(45deg);
     background-color: #ff6666;
-    transition: 1s all ease;
+    transition: 2s all ease;
 }
 
 .triangle_quatre 
@@ -163,7 +163,7 @@ button:hover
     border-bottom : 250px solid transparent;
     border-top : 250px solid transparent;
     background-color: transparent;
-    transition: 1s all ease;
+    transition: 2s all ease;
 }
 
 .triangle_cinq 
@@ -177,7 +177,7 @@ button:hover
     border-bottom : 250px solid transparent;
     border-top : 250px solid transparent;
     background-color: transparent;
-    transition: 1s all ease;
+    transition: 2s all ease;
 }
 
 .parallelogramme 
@@ -190,7 +190,7 @@ button:hover
     width: 250px;
     transform: rotate(180deg) skew(-45deg);
     background-color: #6666cc;
-    transition: 1s all ease;
+    transition: 2s all ease;
 }
 
 .liste
@@ -200,7 +200,7 @@ button:hover
     position: relative;
     height: auto;
     margin-bottom: 50px;
-    transition: 1s all ease;
+    transition: 2s all ease;
 }
 
 .toto

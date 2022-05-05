@@ -36,3 +36,6 @@ ul li button{
 ul li button:hover{
  font-size: 40px;
 }
+.btn1:hover  +.btn2{
+    visibility: hidden;
+}
