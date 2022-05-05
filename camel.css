@@ -5,42 +5,42 @@
 
 .camel .carre {
   transform: rotate(45deg);
-  left: 287px;
+  left: 134px;
   top: 162px;
 }
 
 .camel .triangle_un {
   transform: rotate(45deg);
-  left: 427px;
+  left: 272px;
   top: 251px;
 }
 
 .camel .triangle_deux {
   transform: rotate(-180deg);
   top: 0px;
-  left: 124px;
+  left: -31px;
 }
 
 .camel .triangle_trois {
   transform: rotate(0);
-  left: 0px;
+  left: -158px;
   top: 0px;
 }
 
 .camel .triangle_quatre {
   transform: rotate(-45deg);
   bottom: -214px;
-  right: -266px;
+  right: -107px;
 }
 
 .camel .triangle_cinq {
   transform: rotate(0deg);
-  left: 250px;
+  left: 93px;
   top: 250px;
 }
 
 .camel .parallelogramme {
   top: 250px;
-  left: 62px;
+  left: -93px;
   transform: rotate(-90deg) skew(-45deg);
 }
