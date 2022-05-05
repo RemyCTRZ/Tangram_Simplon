@@ -11,6 +11,10 @@ body
     color: #fff;
     margin:20px;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1
@@ -89,7 +93,6 @@ button:hover
 {
     display: flex;
     flex-direction: column;
-    height:100vh;
     width:100%;
     align-items: center;
 }
@@ -239,6 +242,41 @@ button:hover
     background-color: #333;
     color: #fff;
 }
+
+.design
+{
+    position: relative;
+    top:460px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    list-style-type: none;
+}
+
+.design button
+{
+    color: #fff;
+    font-size: 15px;
+    background-color: #333;
+    border-radius: 0;
+    margin:0;
+    flex-grow: 2;
+    min-width: 25%;
+    padding: 20px;
+    border: solid #fff;
+}
+
+.active
+{
+    animation: blinker 2.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
 
 @media screen and (max-width: 1000px)
 {

@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="style.css"/>
-<link rel="stylesheet" type="text/css" href="fish.css">
-<link rel="stylesheet" type="text/css" href="camel.css">
-<link rel="stylesheet" type="text/css" href="bear.css">
-<link rel="stylesheet" type="text/css" href="swan.css">
-<link rel="stylesheet" type="text/css" href="dog.css">
-<link rel="stylesheet" type="text/css" href="cat.css">
-<link rel="stylesheet" type="text/css" href="reset.css">
-<link rel="stylesheet" type="text/css" href="night_mode.css">
-<script src="https://kit.fontawesome.com/b0162d0160.js" crossorigin="anonymous"></script>
 
-<title>Tangram</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="fish.css">
+    <link rel="stylesheet" type="text/css" href="camel.css">
+    <link rel="stylesheet" type="text/css" href="bear.css">
+    <link rel="stylesheet" type="text/css" href="swan.css">
+    <link rel="stylesheet" type="text/css" href="dog.css">
+    <link rel="stylesheet" type="text/css" href="cat.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="night_mode.css">
+    <script src="https://kit.fontawesome.com/b0162d0160.js" crossorigin="anonymous"></script>
+
+    <title>Tangram</title>
 </head>
 
 <!-- Page -->
@@ -28,11 +29,12 @@
             <button class="reset" onclick="formeClick('reset')">TRIER</button>
             <button class="sort" onclick="formeClick('trier')">CARRE</button>
             <div class="night_mode">
-                <button class="btn_nm" onclick="nightMode()"><i id="icon_night_mode" class="fa-solid fa-sun"></i></button>
+                <button class="btn_nm" onclick="nightMode()"><i id="icon_night_mode"
+                        class="fa-solid fa-sun"></i></button>
             </div>
         </div>
     </section>
-    <section class="centre">
+    <section class="centre" id="centre">
         <aside class="liste">
             <button class="btn_fish" onclick="formeClick('fish')">POISSON</button>
             <button class="btn_bear" onclick="formeClick('bear')">OURS</button>
@@ -43,14 +45,23 @@
         </aside>
         <article class="carre_tangram">
             <div class="toto">
-            <div class="triangle_un"></div>
-            <div class="triangle_deux"></div>
-            <div class="carre"></div>
-            <div class="triangle_trois"></div>
-            <div class="parallelogramme"></div>
-            <div class="triangle_quatre"></div>
-            <div class="triangle_cinq"></div>
-        </div>
+                <div class="triangle_un"></div>
+                <div class="triangle_deux"></div>
+                <div class="carre"></div>
+                <div class="triangle_trois"></div>
+                <div class="parallelogramme"></div>
+                <div class="triangle_quatre"></div>
+                <div class="triangle_cinq"></div>
+            </div>
+            <ul class="design">
+                <li class="btn1"><button onclick="designClick('triangle_un')">Forme 1</button></li>
+                <li class="btn2"><button onclick="designClick('triangle_deux')">Forme 2</button></li>
+                <li class="btn3"><button onclick="designClick('carre')">Forme 3</button></li>
+                <li class="btn4"><button onclick="designClick('triangle_trois')">Forme 4</button></li>
+                <li class="btn5"><button onclick="designClick('parallelogramme')">Forme 5</button></li>
+                <li class="btn6"><button onclick="designClick('triangle_quatre')">Forme 6</button></li>
+                <li class="btn7"><button onclick="designClick('triangle_cinq')">Forme 7</button></li>
+            </ul>
         </article>
     </section>
 </body>
@@ -58,4 +69,4 @@
 
 
 <!-- Bas de page -->
-<script src="script.js" ></script>
+<script src="script.js"></script>

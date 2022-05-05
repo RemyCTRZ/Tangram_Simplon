@@ -31,7 +31,7 @@ function formeClick(e) {
 
 function nightMode() {
   let body = document.body;
-  let icon = document.getElementById('icon_night_mode')
+  let icon = document.getElementById('icon_night_mode');
   body.getAttribute("id") === "nightMode" ? body.removeAttribute("id") : body.setAttribute("id", "nightMode");
   if (icon.className === "fa-solid fa-sun")
   {
@@ -41,4 +41,13 @@ function nightMode() {
   {
     icon.className = "fa-solid fa-sun";
   }
+}
+
+function designClick(d) {
+  let forme = document.getElementsByClassName(d);
+  const actifs = document.querySelectorAll('.active')
+  for (active of actifs) {
+    active.classList.remove('active')
+  }
+  forme[0].classList.add('active');
 }
