@@ -12,11 +12,26 @@ for (var i = 0; i < 360; i++) {
   document.getElementById("colorwheel").appendChild(color);
 }
 
+// let infosColor = new Object();
+
+// function colorForme(e) {
+//   infosColor.classForme = e;
+// }
+
+// function catchColor(id) {
+//   let cursor = document.getElementById("d" + id);
+//   let forme = document.getElementsByClassName(infosColor.classForme);
+
+//   !infosColor.classForme ? alert(`Veuillez sélectionner une forme à l'aide des boutons !`) : console.log('no');
+
+//   infosColor.picker = cursor.style.backgroundColor;
+//   forme[0].setAttribute("style", `background-color: ${infosColor.picker}`);
+// }
+
 function catchColor(e) {
   let a = document.getElementById("d" + e);
   let forme = document.getElementsByClassName("forme");
   let picker = a.style.backgroundColor;
-  console.log(forme);
 
   for (let i = 0; i < 7; i++) {
     switch (i) {
