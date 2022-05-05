@@ -16,14 +16,31 @@ function catchColor(e) {
   let a = document.getElementById("d" + e);
   let forme = document.getElementsByClassName("forme");
   let picker = a.style.backgroundColor;
+  console.log(forme);
 
   for (let i = 0; i < 7; i++) {
-    if (i === 2) {
-      forme[2].setAttribute("style", `background-color: ${picker}`);
-    } else if (i === 4) {
-      forme[4].setAttribute("style", `background-color: ${picker}`);
-    } else {
-      forme[i].setAttribute("style", `border-color: ${picker}`);
+    switch (i) {
+      case 0:
+        forme[0].setAttribute("style", `border-top-color: ${picker}; opacity: 0.8`);
+        break;
+      case 1:
+        forme[1].setAttribute("style", `border-left-color: ${picker}; opacity: 0.4`);
+        break;
+      case 2:
+        forme[2].setAttribute("style", `background-color: ${picker}; opacity: 0.3`);
+        break;
+      case 3:
+        forme[3].setAttribute("style", `border-top-color: ${picker}; opacity: 0.6`);
+        break;
+      case 4:
+        forme[4].setAttribute("style", `background-color: ${picker}; opacity: 1`);
+        break;
+      case 5:
+        forme[5].setAttribute("style", `border-left-color: ${picker}; opacity: 0.7`);
+        break;
+      case 6:
+        forme[6].setAttribute("style", `border-left-color: ${picker}; opacity: 0.5`);
+        break;
     }
   }
 }
