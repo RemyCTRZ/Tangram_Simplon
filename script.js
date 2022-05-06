@@ -45,9 +45,9 @@ function nightMode() {
 
 function designClick(d) {
   let forme = document.getElementsByClassName(d);
-  const actifs = document.querySelectorAll('.active')
+  const actifs = document.querySelectorAll('.active');
   for (active of actifs) {
-    active.classList.remove('active')
+    active.classList.remove('active');
   }
   forme[0].classList.add('active');
 }

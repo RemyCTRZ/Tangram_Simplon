@@ -1,10 +1,11 @@
-.bear{
-
+.bear
+{
 	background: linear-gradient(-45deg, #dba14b, #dbc84cfd ,#87de6d, #58d865);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
-    background-repeat: no-repeat;}
+	height: 100%;
+    background-repeat: no-repeat;
+}
 
 
 @keyframes gradient {
@@ -20,8 +21,7 @@
 }
 .bear .carre_tangram
 {
-    height: 500px;
-    width: 500px;
+    bottom:100px;
 }
 
 .bear .triangle_un

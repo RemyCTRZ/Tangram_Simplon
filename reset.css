@@ -1,8 +1,7 @@
 .reset .carre_tangram
-{
-    height: 500px;
-    width: auto;
-    margin-top: 138px;
+{  
+    bottom: 50px;
+    left:70px;
 }
 
 .reset .carre {
@@ -43,4 +42,7 @@
     transform: skew(-45deg);
 }
 
-
+@media screen and (max-width: 1000px)
+{
+    
+}

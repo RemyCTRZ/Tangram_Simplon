@@ -8,12 +8,31 @@
 
 body
 {
+    background: linear-gradient(-45deg, #23d588, #23d5ab ,#ee7752, #e73c7e);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100%;
+    background-repeat: no-repeat;
     color: #fff;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 nav{
@@ -80,14 +99,14 @@ button:hover
 {
     background-color: #fff;
     color: #3399ff;
-    outline: auto #3399ff;
+    outline: solid 3px #3399ff;
 }
 
 .liste button:hover
 {
     background-color: #fff;
-    color:#333;
-    outline: auto #333;
+    color: #333;
+    outline: solid 4px #333;
 }
 
 
@@ -103,7 +122,9 @@ button:hover
 {
     height: 500px;
     width: 500px;
+    bottom:100px;
     position: relative;
+    transform: scale(0.5);
 }
 
 .triangle_un
@@ -204,7 +225,6 @@ button:hover
     flex-direction: row;
     position: relative;
     height: auto;
-    margin-bottom: 50px;
     transition: 1s all ease;
 }
 
@@ -248,11 +268,10 @@ button:hover
 .design
 {
     position: relative;
-    top:460px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 500px;
+    width: 100%;
     list-style-type: none;
 }
 
@@ -262,21 +281,32 @@ button:hover
     font-size: 15px;
     background-color: #333;
     border-radius: 0;
-    margin:0;
+    margin:5px;
     flex-grow: 2;
     min-width: 25%;
     padding: 20px;
-    border: solid #fff;
+    border: solid #4b4b4b 1px;
+    transition: none;
+    opacity:0.9;
+}
+
+.design button:hover
+{
+    background-color: #fff;
+    outline: solid 2px #fff;
+    border: none;
+    color: #333;
+    opacity:1;
 }
 
 .active
 {
-    animation: blinker 2.5s linear infinite;
+    animation: blinker 1.5s linear infinite;
 }
 
 @keyframes blinker {
     50% {
-      opacity: 0;
+      filter:invert(100%)
     }
   }
 
@@ -475,23 +505,5 @@ button:hover
         color: #fff;
     }
 }
-body {
-	background: linear-gradient(-45deg, #23d588, #23d5ab ,#ee7752, #e73c7e);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-    background-repeat: no-repeat;
-}
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 
