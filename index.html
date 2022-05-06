@@ -1,65 +1,80 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="fish.css">
-    <link rel="stylesheet" type="text/css" href="camel.css">
-    <link rel="stylesheet" type="text/css" href="bear.css">
-    <link rel="stylesheet" type="text/css" href="swan.css">
-    <link rel="stylesheet" type="text/css" href="dog.css">
-    <link rel="stylesheet" type="text/css" href="cat.css">
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="night_mode.css">
-    <script src="https://kit.fontawesome.com/b0162d0160.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="fish.css" />
+    <link rel="stylesheet" type="text/css" href="camel.css" />
+    <link rel="stylesheet" type="text/css" href="bear.css" />
+    <link rel="stylesheet" type="text/css" href="swan.css" />
+    <link rel="stylesheet" type="text/css" href="dog.css" />
+    <link rel="stylesheet" type="text/css" href="cat.css" />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="night_mode.css" />
+    <link rel="stylesheet" href="color.css" />
+    <script
+      src="https://kit.fontawesome.com/b0162d0160.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <title>Tangram</title>
-</head>
+      <title>Tangram</title>
+    </head>
 
-<!-- Page -->
+    <!-- Page -->
 
-<body>
-    <nav>
+    <body>
+      <nav>
         <h1>TANGRAM</h1>
         <section class="boutons">
-            <div class="btn_carre">
-                <button class="reset" onclick="formeClick('reset')">TRIER</button>
-                <button class="sort" onclick="formeClick('trier')">CARRE</button>
-                <div class="night_mode">
-                    <button class="btn_nm" onclick="nightMode()"><i id="icon_night_mode"
-                            class="fa-solid fa-sun"></i></button>
-                </div>
+          <div class="btn_carre">
+            <button class="reset" onclick="formeClick('reset')">TRIER</button>
+            <button class="sort" onclick="formeClick('trier')">CARRE</button>
+            <div class="night_mode">
+              <button class="btn_nm" onclick="nightMode()">
+                <i id="icon_night_mode" class="fa-solid fa-sun"></i>
+              </button>
             </div>
+          </div>
         </section>
-    </nav>
+      </nav>
 
-    <section class="centre">
+      <section class="centre">
         <aside class="liste">
-            <button class="btn_fish" onclick="formeClick('fish')">POISSON</button>
-            <button class="btn_bear" onclick="formeClick('bear')">OURS</button>
-            <button class="btn_dog" onclick="formeClick('dog')">CHIEN</button>
-            <button class="btn_cat" onclick="formeClick('cat')">CHAT</button>
-            <button class="btn_swan" onclick="formeClick('swan')">CYGNE</button>
-            <button class="btn_horse" onclick="formeClick('camel')">CAMEL</button>
+          <button class="btn_fish" onclick="formeClick('fish')">POISSON</button>
+          <button class="btn_bear" onclick="formeClick('bear')">OURS</button>
+          <button class="btn_dog" onclick="formeClick('dog')">CHIEN</button>
+          <button class="btn_cat" onclick="formeClick('cat')">CHAT</button>
+          <button class="btn_swan" onclick="formeClick('swan')">CYGNE</button>
+          <button class="btn_horse" onclick="formeClick('camel')">CAMEL</button>
         </aside>
         <article class="carre_tangram">
-            <div class="toto">
-                <div class="triangle_un"></div>
-                <div class="triangle_deux"></div>
-                <div class="carre"></div>
-                <div class="triangle_trois"></div>
-                <div class="parallelogramme"></div>
-                <div class="triangle_quatre"></div>
-                <div class="triangle_cinq"></div>
-            </div>
+          <div class="toto">
+            <div class="triangle_un forme"></div>
+            <div class="triangle_deux forme"></div>
+            <div class="carre forme"></div>
+            <div class="triangle_trois forme"></div>
+            <div class="parallelogramme forme"></div>
+            <div class="triangle_quatre forme"></div>
+            <div class="triangle_cinq forme"></div>
+          </div>
         </article>
-    </section>
- 
-</body>
+        <div class="color_picker">
+            <p>Selectionner votre couleur :</p>
+            <div id="colorwheel"></div>
+          </div>
+      </section>
+      
+    </body>
 
+    <!-- Bas de page -->
 
+    <footer></footer>
 
-<!-- Bas de page -->
-<script src="script.js"></script>
+    <script>
+      let night_mode = document.querySelector(".night_mode");
+    </script>
+    <script src="script.js"></script>
+    <script src="color.js"></script>
+  </head>
+</html>
