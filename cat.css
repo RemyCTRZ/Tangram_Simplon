@@ -1,3 +1,23 @@
+.cat {
+	background: linear-gradient(-45deg, #c321d2, #b76ab2 ,#a19794, #dad1d4);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    background-repeat: no-repeat;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .cat .triangle_un{
     left:-12px;
     top:320px;

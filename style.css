@@ -481,6 +481,7 @@ body {
 	animation: gradient 15s ease infinite;
 	height: 100vh;
     background-repeat: no-repeat;
+    transition:all 350ms ease;
 }
 
 @keyframes gradient {
