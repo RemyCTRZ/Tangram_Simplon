@@ -1,3 +1,23 @@
+.fish{
+
+	background: linear-gradient(-45deg, #492fdc, #2baaca ,#665587, #664cba);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    background-repeat: no-repeat;}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 .fish .carre_tangram
 {
     height: 500px;
