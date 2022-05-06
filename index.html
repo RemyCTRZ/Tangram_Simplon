@@ -21,20 +21,21 @@
 <!-- Page -->
 
 <body>
-    <header>
+    <nav>
         <h1>TANGRAM</h1>
-    </header>
-    <section class="boutons">
-        <div class="btn_carre">
-            <button class="reset" onclick="formeClick('reset')">TRIER</button>
-            <button class="sort" onclick="formeClick('trier')">CARRE</button>
-            <div class="night_mode">
-                <button class="btn_nm" onclick="nightMode()"><i id="icon_night_mode"
-                        class="fa-solid fa-sun"></i></button>
+        <section class="boutons">
+            <div class="btn_carre">
+                <button class="reset" onclick="formeClick('reset')">TRIER</button>
+                <button class="sort" onclick="formeClick('trier')">CARRE</button>
+                <div class="night_mode">
+                    <button class="btn_nm" onclick="nightMode()"><i id="icon_night_mode"
+                            class="fa-solid fa-sun"></i></button>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="centre" id="centre">
+        </section>
+    </nav>
+
+    <section class="centre">
         <aside class="liste">
             <button class="btn_fish" onclick="formeClick('fish')">POISSON</button>
             <button class="btn_bear" onclick="formeClick('bear')">OURS</button>
@@ -53,15 +54,6 @@
                 <div class="triangle_quatre"></div>
                 <div class="triangle_cinq"></div>
             </div>
-            <ul class="design">
-                <li class="btn1"><button onclick="designClick('triangle_un')">Forme 1</button></li>
-                <li class="btn2"><button onclick="designClick('triangle_deux')">Forme 2</button></li>
-                <li class="btn3"><button onclick="designClick('carre')">Forme 3</button></li>
-                <li class="btn4"><button onclick="designClick('triangle_trois')">Forme 4</button></li>
-                <li class="btn5"><button onclick="designClick('parallelogramme')">Forme 5</button></li>
-                <li class="btn6"><button onclick="designClick('triangle_quatre')">Forme 6</button></li>
-                <li class="btn7"><button onclick="designClick('triangle_cinq')">Forme 7</button></li>
-            </ul>
         </article>
     </section>
 </body>
