@@ -75,12 +75,11 @@ body#nightMode
     color:#3399ff;
 }
 
-@media screen and (max-width: 1000px )
-
+@media screen and (max-width: 1000px)
 {
     #nightMode .night_mode button
     {
-        background-color: #333;
+        background-color: #fff;
         height:50px;
         width:50px;
         position: fixed;
