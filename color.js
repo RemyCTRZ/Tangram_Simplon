@@ -18,6 +18,8 @@ for (var i = 0; i < 360; i++) {
 //   infosColor.classForme = e;
 // }
 
+// console.log(infosColor.classForme);
+
 // function catchColor(id) {
 //   let cursor = document.getElementById("d" + id);
 //   let forme = document.getElementsByClassName(infosColor.classForme);
